@@ -1,6 +1,6 @@
-# web-stack-search-vue
+# Search App with Vue Js
 
-> A simple Vue js application for webstack search
+> A simple Vue js search application 
 
 ## Build Setup
 
