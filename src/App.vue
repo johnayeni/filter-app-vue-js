@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+	name: 'App'
 };
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+	margin-top: 50px;
+}
+
+.search-wrapper {
+	margin: 20px;
+}
+
+.badge {
+	border-radius: 0;
 }
 </style>
+
