@@ -50,7 +50,7 @@
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="checkbox"  v-model="hybrid.checked" v-on:change="getfilteredData">
         <label class="form-check-label">
-          Hybrid
+          Hybrid 
         </label>
       </div>
       <div class="form-check form-check-inline">

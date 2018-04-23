@@ -1,112 +1,112 @@
 const data = [
 	{
 		name: 'vue js',
-		logo: require('../assets/img/vue-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501994/vue-logo_uoxef2.png',
 		stack: [ 'framework', 'frontend', 'web', 'mobile' ]
 	},
 	{
 		name: 'react js',
-		logo: require('../assets/img/react-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501994/react-logo_n8nigl.png',
 		stack: [ 'framework', 'frontend', 'web', 'mobile' ]
 	},
 	{
 		name: 'angular js',
-		logo: require('../assets/img/angular-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501990/angular-logo_wnra1m.png',
 		stack: [ 'framework', 'frontend', 'web', 'mobile' ]
 	},
 	{
 		name: 'javascript',
-		logo: require('../assets/img/javascript-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/javascript-logo_kz7zja.png',
 		stack: [ 'language', 'web', 'mobile' ]
 	},
 	{
 		name: 'php',
-		logo: require('../assets/img/php-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501993/php-logo_hojx5k.png',
 		stack: [ 'language', 'web' ]
 	},
 	{
 		name: 'java',
-		logo: require('../assets/img/java-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501991/java-logo_doy3o0.png',
 		stack: [ 'language', 'web', 'mobile' ]
 	},
 	{
 		name: 'python',
-		logo: require('../assets/img/python-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501993/python-logo_mjaxc1.png',
 		stack: [ 'language', 'web' ]
 	},
 	{
 		name: 'go',
-		logo: require('../assets/img/go-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501991/go-logo_avni2x.png',
 		stack: [ 'language', 'web' ]
 	},
 	{
 		name: 'html',
-		logo: require('../assets/img/html-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/html-logo_oe7cb4.png',
 		stack: [ 'language', 'web' ]
 	},
 	{
 		name: 'css',
-		logo: require('../assets/img/css-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501991/css-logo_hsgsej.png',
 		stack: [ 'language', 'web' ]
 	},
 	{
 		name: 'scss',
-		logo: require('../assets/img/scss-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501993/scss-logo_z71exc.png',
 		stack: [ 'language', 'web' ]
 	},
 	{
 		name: 'kotlin',
-		logo: require('../assets/img/kotlin-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501993/kotlin-logo_dnjpni.png',
 		stack: [ 'language', 'mobile' ]
 	},
 	{
 		name: 'android',
-		logo: require('../assets/img/android-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501990/android-logo_uqw54t.png',
 		stack: [ 'language', 'mobile' ]
 	},
 	{
 		name: 'swift',
-		logo: require('../assets/img/swift-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501994/swift-logo_bdjes1.png',
 		stack: [ 'language', 'mobile' ]
 	},
 	{
 		name: 'ionic',
-		logo: require('../assets/img/ionic-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/ionic-logo_bc7d4u.png',
 		stack: [ 'framework', 'hybrid', 'mobile', 'web' ]
 	},
 	{
 		name: 'flutter',
-		logo: require('../assets/img/flutter-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501991/flutter-logo_co1o4s.png',
 		stack: [ 'framework', 'hybrid', 'mobile' ]
 	},
 	{
 		name: 'node js',
-		logo: require('../assets/img/nodejs-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/nodejs-logo_w8vt1c.png',
 		stack: [ 'framework', 'frontend', 'backend', 'web' ]
 	},
 	{
 		name: 'laravel',
-		logo: require('../assets/img/laravel-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/laravel-logo_e3gsn1.png',
 		stack: [ 'framework', 'frontend', 'backend', 'web' ]
 	},
 	{
 		name: 'django',
-		logo: require('../assets/img/django-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501990/django-logo_vutkvt.png',
 		stack: [ 'framework', 'frontend', 'backend', 'web' ]
 	},
 	{
 		name: 'graphql',
-		logo: require('../assets/img/graphql-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/graphql-logo_mdrics.png',
 		stack: [ 'backend' ]
 	},
 	{
 		name: 'mySQL',
-		logo: require('../assets/img/mysql-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501993/mysql-logo_g87g6v.png',
 		stack: [ 'database' ]
 	},
 	{
 		name: 'mongo DB',
-		logo: require('../assets/img/mongo-logo.png'),
+		logo: 'http://res.cloudinary.com/johnayeni/image/upload/v1524501992/mongo-logo_ryaupe.png',
 		stack: [ 'database' ]
 	}
 ];
