@@ -16,6 +16,7 @@
 export default {
 	data() {
 		return {
+			// list of tags to giving each stack a different color
 			tags: {
 				language: 'light',
 				framework: 'dark',
@@ -29,11 +30,13 @@ export default {
 		};
 	},
 	filters: {
+		// this filter will can be used to capitalise words
 		capitalize: item => {
 			return item.toUpperCase();
 		}
 	},
 	props: {
+		// this component expects a prop of type object
 		item: {
 			type: Object,
 			required: true
