@@ -25,7 +25,11 @@
 		<!-- end of checkboxes -->
     <div class="card-columns">
 			<!-- iterate data -->
-      <item-card v-for="(item, index) in filteredData" :key="index" :item="item"></item-card>
+      <template v-for="(item, index) in filteredData" >
+      <router-link :to="'/item/' + sanitize(item.name)" :key="index">
+        <item-card  :key="index" :item="item"></item-card>
+      </router-link>
+      </template>
     </div>
   </div>
 </template>
@@ -90,6 +94,9 @@ export default {
 		};
 	},
 	methods: {
+    sanitize(s){
+      return s.replace(/ /g, '-');
+    },
 		getfilteredData: function() {
 			this.filteredData = data;
 			let filteredDataByfilters = [];
